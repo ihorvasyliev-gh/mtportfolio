@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Mail, MessageCircle, ArrowUpRight, MapPin, Sparkles, Send } from 'lucide-react';
+import { Mail, MessageCircle, ArrowUpRight, MapPin, Sparkles, Send } from 'lucide-react';
+import { InstagramIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Contact({ onOpenBooking }) {
@@ -33,7 +34,7 @@ export default function Contact({ onOpenBooking }) {
           >
             <div>
               <div className="w-12 h-12 rounded-full bg-noir-950 border border-noir-800 flex items-center justify-center text-champagne-400 mb-6 group-hover:scale-110 transition-transform">
-                <Instagram size={22} />
+                <InstagramIcon size={22} />
               </div>
               <span className="text-[10px] uppercase font-mono tracking-widest text-sand-500 block mb-1">
                 Social Portfolio

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Printer, Download, Sparkles, Instagram, Mail, Check, ExternalLink } from 'lucide-react';
+import { Printer, Download, Sparkles, Mail, Check, ExternalLink } from 'lucide-react';
+import { InstagramIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function CompCard({ onOpenBooking }) {

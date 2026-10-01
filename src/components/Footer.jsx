@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowUp, Instagram, Mail, Heart } from 'lucide-react';
+import { ArrowUp, Mail, Heart } from 'lucide-react';
+import { InstagramIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Footer() {
@@ -41,7 +42,7 @@ export default function Footer() {
             className="p-2.5 rounded-full bg-noir-900 border border-noir-800 text-sand-300 hover:text-champagne-300 hover:border-champagne-400 transition-colors"
             title="Instagram"
           >
-            <Instagram size={15} />
+            <InstagramIcon size={15} />
           </a>
 
           <a

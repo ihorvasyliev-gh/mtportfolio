@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Instagram, Menu, X, ArrowUpRight, Sparkles } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Sparkles } from 'lucide-react';
+import { InstagramIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Navbar({ onOpenBooking }) {
@@ -64,7 +65,7 @@ export default function Navbar({ onOpenBooking }) {
             className="flex items-center gap-1.5 text-xs text-sand-200 hover:text-champagne-300 px-3 py-1.5 rounded-full border border-noir-700/80 hover:border-champagne-500/50 transition-all duration-300"
             title="Follow on Instagram"
           >
-            <Instagram size={14} className="text-champagne-400" />
+            <InstagramIcon size={14} className="text-champagne-400" />
             <span className="font-mono text-[11px] tracking-wider">{portfolioData.personal.handle}</span>
             <ArrowUpRight size={12} className="opacity-60" />
           </a>
@@ -110,7 +111,7 @@ export default function Navbar({ onOpenBooking }) {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 text-xs text-sand-200 py-3 rounded border border-noir-700 hover:border-champagne-400"
             >
-              <Instagram size={16} className="text-champagne-400" />
+              <InstagramIcon size={16} className="text-champagne-400" />
               <span>Instagram {portfolioData.personal.handle}</span>
               <ArrowUpRight size={14} />
             </a>
